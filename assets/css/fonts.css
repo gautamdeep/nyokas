@@ -1,0 +1,46 @@
+@import url(http://fonts.googleapis.com/css?family=Lato:300,400,700);
+
+@font-face {
+	font-family: Alex;
+	src:url('../fonts/AlexBrush-Regular.ttf') format('truetype');
+}
+
+@font-face {
+	font-family: Kaushan;
+	src:url('../fonts/KaushanScript-Regular.otf') format('truetype');
+}
+
+@font-face {
+	font-family: Aguafina;
+	src:url('../fonts/AguafinaScript-Regular.ttf') format('truetype');
+}
+
+@font-face {
+	font-family: Condiment;
+	src:url('../fonts/Condiment-Regular.otf') format('truetype');
+}
+
+@font-face {
+	font-family: FingerPaint;
+	src:url('../fonts/FingerPaint-Regular.ttf') format('truetype');
+}
+
+@font-face {
+	font-family: HerrVon;
+	src:url('../fonts/HerrVonMuellerhoff-Regular.otf') format('truetype');
+}
+
+@font-face {
+	font-family: porter;
+	src:url('../fonts/porter-sans-inline-block.otf') format('truetype');
+}
+
+@font-face {
+	font-family: Sevillana;
+	src:url('../fonts/Sevillana-Regular.ttf') format('truetype');
+}
+
+@font-face {
+	font-family: SonsieOne;
+	src:url('../fonts/SonsieOne-Regular.otf') format('truetype');
+}

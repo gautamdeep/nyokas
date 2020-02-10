@@ -1,0 +1,7 @@
+label{font-size:14px !important;}
+label{background:#111; color:#fff !important;}
+
+@media print {
+   label.input-underline{width:200px;border-bottom:1px dashed #ccc !important;}
+   label{background:#111; color:#fff;}
+}

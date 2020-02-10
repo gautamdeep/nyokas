@@ -1,0 +1,56 @@
+/* Additional Fonts */
+@import url(fonts.css);
+@import url(glyphicon.css);
+
+/* Resets */
+.reset-left {
+	margin-left: 0;	padding-left: 0;
+}
+.reset-right {
+	margin-right: 0; padding-right: 0;
+}
+.reset-both {
+	margin-left: 0;	padding-left: 0; margin-right: 0; padding-right: 0;
+}
+
+body{background-color: #EEE; color: #333;font-family: serif;}
+@media screen and (max-width: 571px) {
+	body{font-size: 12px;}
+}
+
+.banner{background-color: #FFF;width: 100%; height: 100px;}
+.banner img{height: 100px;}
+
+.menu{margin-bottom: 15px;background-color: #EAEAEA;}
+
+.slider{width: 100%;height: 480px;margin-bottom: 15px;}
+#slider img{width: 100%;height: 480px;}
+@media screen and (max-width: 571px) {
+  .slider{width: 100%;height: 98px;margin-bottom: 5px;}
+  #slider img{width: 100%;height: 98px;}
+}
+
+.jumbotron{background-color: #FFF;border-radius: 5px;color: #333;margin-bottom: 15px;}
+.jumbotron p{font-size: 16px;font-weight: normal;}
+.welcome-title{font-weight: bold;font-family: sans-serif;color: #333;padding-bottom: 0px;}
+.jumbotron hr{padding-top: 0px;margin-top: 0px;}
+.jumbotron img{opacity: none}
+
+section{margin-bottom: 15px;text-align: justify;color: #444;}
+section h4{font-weight: bold;width: 100%;background-color: #b5e326;color: #FFF;padding: 2px 10px;}
+section h4 small{float: right;margin-top:18px;color: #FFF;}
+section h4 small:hover{text-decoration: underline;color: green;}
+section .news-box{font-size:14px; height:237px; overflow: hidden; border-right: 1px solid #CCC;border-bottom: 1px solid #CCC;padding: 5px;background-color: #FFF;margin-bottom: 10px;-webkit-box-shadow: 2px 2px 4px 0px #000; /* Android 2.3+, iOS 4.0.2-4.2, Safari 3-4 */box-shadow: 2px 2px 4px 0px #000; /* Chrome 6+, Firefox 4+, IE 9+, iOS 5+, Opera 10.50+ */}
+section .news-box .btn-readmore{width:auto;text-align: center;background-color: #b5e326;color: #FFF;border: none;padding: 5px 10px 5px 10px;font-weight: bold;float: right;margin-top: 5px;border-radius: 3px;}
+section .news-box .btn-readmore:hover{background-color: green;}
+section h6{color: #333;font-weight: bold;margin-bottom: 2px;}
+
+footer{background: url('../images/admin-bg.png');color: #FFF;padding: 20px 20px 0px 20px;text-align: center;}
+footer h2{color: #FFF;font-family: Kaushan}
+footer h2 small{color: #DDD}
+footer img{width: 40px;opacity: 0.6;margin: 0px 10px;border-radius: 50%}
+footer img:hover{opacity: 1}
+footer .full{width: auto;border-radius: 0px;opacity: 1;margin: 0px;}
+footer .no-side{margin-bottom: 0px;padding-bottom: 0px;}
+footer .power{font-size: 11px;padding: 1px;}
+footer #map{width: 100%;height: 350px;margin-bottom: 20px;}
